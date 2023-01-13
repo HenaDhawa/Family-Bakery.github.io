@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en"> 
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Family Bakery-Gallery</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <style>
+        * {
+          margin: 0;
+          padding: 0;
+          box-sizing: border-box;
+        }
+        html{
+          font-size: 62.5%;
+          scroll-behavior: smooth;
+        }
+        
+        body main {
+          margin: 0;
+          font-family: Arial;
+        }
+        
+        main {
+          text-align: center;
+          padding: 32px;
+        }
+        
+        .row {
+          display: -ms-flexbox; 
+          display: flex;
+          -ms-flex-wrap: wrap; 
+          flex-wrap: wrap;
+          padding: 0 4px;
+        }
+        .column {
+          -ms-flex: 25%; 
+          flex: 25%;
+          max-width: 25%;
+          padding: 0 4px;
+        }
+        
+        .column img {
+          margin-top: 8px;
+          vertical-align: middle;
+          width: 100%;
+          filter: grayscale(100%);
+          transition: filter 0.25s;
+        }
+        @media screen and (max-width: 800px) {
+          .column {
+            -ms-flex: 50%;
+            flex: 50%;
+            max-width: 50%;
+          }
+        }
+        @media screen and (max-width: 600px) {
+          .column {
+            -ms-flex: 100%;
+            flex: 100%;
+            max-width: 100%;
+          }
+        }
+        .column img:hover{
+          filter: grayscale(0%);
+        }
+        </style>
+</head>
+<body>
+  <header>
+    <div>
+        <nav>
+          <img src="images/b1.jpg" alt="FAMILY BAKERY" width="100%">
+        <div>
+            <a href="index.html">HOME ||</a>
+            <a href="about-us.html">ABOUT US ||</a> 
+            <a href="gallery.html">GALLERY ||</a> 
+            <a href="recipies.html">RECIPIES ||</a>
+            <a href="login.html">SIGN-UP</a> 
+        </div>
+        </nav>
+        <br><br>
+       </div>
+</header><br><br>
+    <main>
+        <p style="text-align: center; font-size: 50px; font-family: Verdana, Geneva, Tahoma, sans-serif;"><u>GALLERY</u></p><br><br>
+        <div class="row">
+            <div class="column">
+                <img src="images/z11.jpg" style="width: 100%;">
+                <img src="images/b2.jpg" style="width: 100%;">
+                <img src="images/z7.jpg" style="width: 100%;">
+                <img src="images/z13.jpg" style="width: 100%;">
+                <img src="images/bake.jpg" style="width: 100%;">
+            </div>
+            <div class="column">
+                <img src="images/z10.jpg" style="width: 100%;">
+                <img src="images/b6.jpg" style="width: 100%;">
+                <img src="images/z2.jpg" style="width: 100%;">
+                <img src="images/z14.jpg" style="width: 100%;">
+                <img src="images/a2.jpg" style="width: 100%;">
+            </div>
+            <div class="column">
+                <img src="images/a6.jpg" style="width: 100%;">
+                <img src="images/b4.jpg" style="width: 100%;">
+                <img src="images/a5.jpg" style="width: 100%;">
+                <img src="images/a3.jpg" style="width: 100%;">
+                <img src="images/a0.jpg" style="width: 100%;">
+            </div>
+            <div class="column">
+              <img src="images/a1.jpg" style="width: 100%;">
+              <img src="images/b3.jpg" style="width: 100%;">
+              <img src="images/a4.jpg" style="width: 100%;">
+              <img src="images/z4.jpg" style="width: 100%;">
+              <img src="images/z0.jpg" style="width: 100%;">
+          </div>
+        </div>
+    </main>
+    <footer>
+      <div class="m8">
+          <div class="content"><center>
+          <b style="font-size:45px; color: goldenrod; font-family: 'Times New Roman', Times, serif;">CONTACT US</b><br><br>
+          <BR><p>Monday - Friday 7:00 AM - 6:00 PM | Saturday<br>7:00 AM - 4:00 PM<br>Closed Sunday to focus on faith and family<br><br>
+          <b>Phone: </b>(678)580-0734<br>
+          <b>Email: </b><u style="color: goldenrod;">contactus@bakery.com</u>
+          <br><br>
+          <b>Address:</b><br>
+          Great Harvest Bread Company<br>
+          150 Athens Hwy Suite 700<br>
+          Loganville, GA 30052</p>
+      </center></div></div>
+  </footer>
+</body>
+</html>
